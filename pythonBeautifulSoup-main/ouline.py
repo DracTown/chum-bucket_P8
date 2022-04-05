@@ -1,17 +1,17 @@
 #import beautifulsoup and request here
 
-
-
+def displayJobDetails():
+    print("Display job details")
 
 #function to get job list from url 'https://www.indeed.com/jobs?q={role}&l={location}'
-def getJobList():
+def getJobList(role,location):
     url = 'https://www.indeed.com/jobs?q={role}&l={location}'
     # Complete the missing part of this function here 
 
-#save data in csv file
-def saveDataInCSV():
+#save data in JSON file
+def saveDataInJSON(jobDetails):
     #Complete the missing part of this function here
-    print("Saving data to csv")
+    print("Saving data to JSON")
 
 #main function
 def main():
@@ -19,13 +19,6 @@ def main():
     print("Enter role you want to search")
     role = input()
     # Complete the missing part of this function here
-    print("Enter location: ")
-    location = input()
-    print("Job role: ", role)
-    print("location: ", location)
-    getJobList(role,location)
-
-
-
+    
 if __name__ == '__main__':
     main()
