@@ -8,7 +8,7 @@ def displayJobDetails():
 
 #function to get job list from url 'https://www.indeed.com/jobs?q={role}&l={location}'
 def getJobList(role,location):
-    url = 'https://www.indeed.com/jobs?q={role}&l={location}'
+   
     # Complete the missing part of this function here 
 
     url = "https://www.indeed.com/jobs?q="+ role + "&l=" + location
