@@ -42,6 +42,7 @@ def main():
     role = input()
     # Complete the missing part of this function here
     print("Enter the Location to serch")
-    location=input()    
+    location=input()
+    getJobList(role, location)    
 if __name__ == '__main__':
     main()
