@@ -6,9 +6,12 @@ from bs4 import BeautifulSoup
 def displayJobDetails():
     print("Display job details")
 
+<<<<<<< HEAD
 #function to get job list from url 'https://www.indeed.com/jobs?q={role}&l={location}'
 def getJobList(role, location):
     def getJobList(role, location):
+=======
+>>>>>>> d01a6398568aebc0bcd7286f2faf3e0d507e9e5e
     # Complete the missing part of this function here
     jobResults = []
     searchResultsjobTitle = []
@@ -28,7 +31,10 @@ def getJobList(role, location):
     companyName = soup.find_all('span', attrs={'class': 'companyName'})
     jobDescription = soup.find_all('div', attrs={'class': 'job-snippet'})
     salary = soup.find_all('div', attrs={'class': 'salary-snippet-container'})
+<<<<<<< HEAD
    
+=======
+>>>>>>> d01a6398568aebc0bcd7286f2faf3e0d507e9e5e
     for title in jobTitle:
         searchResultsjobTitle.append(title.text)
     for name in companyName:
