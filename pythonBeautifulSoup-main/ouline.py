@@ -1,6 +1,7 @@
 #import beautifulsoup and request here
-import beautifulsoup4
 import requests
+import beautifulsoup4
+
 
 def displayJobDetails():
     print("Display job details")
@@ -21,6 +22,7 @@ def main():
     print("Enter role you want to search")
     role = input()
     # Complete the missing part of this function here
-    
+    print("Enter the Location to serch")
+    location=input()    
 if __name__ == '__main__':
     main()
