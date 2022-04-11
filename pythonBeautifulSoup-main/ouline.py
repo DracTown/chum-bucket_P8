@@ -6,13 +6,15 @@ from bs4 import BeautifulSoup
 def displayJobDetails():
     print("Display job details")
 
+<<<<<<< HEAD
+
 def getJobList(role, location):
+=======
+def getJobList(role, location):
+>>>>>>> 6742870fcfcec386afb4f74eea073f64aa3034ee
     # Complete the missing part of this function here
     jobResults = []
-    searchResultsjobTitle = []
-    searchResultscompanyName = []
-    searchResultsjobDescription = []
-    searchResultssalary = []
+
 
     url = "https://www.indeed.com/jobs?q=" + role + "&l=" + location
 
@@ -22,6 +24,8 @@ def getJobList(role, location):
     }
     response = requests.request("GET", url, headers=headers, data=payload)
     soup = BeautifulSoup(response.text, 'html.parser')
+<<<<<<< HEAD
+=======
     jobTitle = soup.find_all('h2', attrs={'class': 'jobTitle'})
     companyName = soup.find_all('span', attrs={'class': 'companyName'})
     jobDescription = soup.find_all('div', attrs={'class': 'job-snippet'})
@@ -41,6 +45,24 @@ def getJobList(role, location):
             searchResultssalary.append(sal.text)
         else:
             print('No salary listed')
+>>>>>>> 6742870fcfcec386afb4f74eea073f64aa3034ee
+
+    for job in soup.find_all('div', attrs={'class': 'slider_container css-11g4k3a eu4oa1w0'}):
+        jobTitle = job.find_next('h2', class_='jobTitle')
+        companyName = job.find_next('span', class_='companyName')
+        jobDescription = job.find_next('div', class_='job-snippet')
+        salary = job.find_next('div', class_='salary-snippet-container')
+        if salary:
+            salary=salary.text
+        else:
+         salary="None"
+
+        jobs = [jobTitle.text, companyName.text, jobDescription.text, salary]
+        jobResults.append(jobs)
+
+    for i in jobResults:
+     print(i)
+
 
     
     
