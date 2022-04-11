@@ -1,6 +1,5 @@
 #import beautifulsoup and request here
-import beautifulsoup4
-import requests
+import urllib.request
 
 def displayJobDetails():
     print("Display job details")
@@ -9,7 +8,8 @@ def displayJobDetails():
 def getJobList(role,location):
     url = 'https://www.indeed.com/jobs?q={role}&l={location}'
     # Complete the missing part of this function here 
-
+    jobURL = urllib.request.urlopen('https://www.indeed.com/jobs?q={role}&l={location}')
+    
 #save data in JSON file
 def saveDataInJSON(jobDetails):
     #Complete the missing part of this function here
