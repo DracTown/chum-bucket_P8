@@ -1,4 +1,3 @@
-#import beautifulsoup and request here
 from pip._vendor import requests
 from bs4 import BeautifulSoup
 
@@ -29,15 +28,13 @@ def getJobList(role, location):
         if salary:
             salary=salary.text
         else:
-         salary="None"
+         salary="None listed"
 
         jobs = [jobTitle.text, companyName.text, jobDescription.text, salary]
         jobResults.append(jobs)
 
     for i in jobResults:
      print(i)
-
-
     
     
 #main function
