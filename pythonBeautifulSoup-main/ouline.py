@@ -24,11 +24,13 @@ def getJobList(role,location):
     jobTitle = url.find('h2',class_='jobTitle').text
     companyName= url.find('span',class_='companyName').text
     jobDescription = url.find('div',class_='job-snippet').text
-    Salary = url.find('div',class_='salary-snippet-container').text
+    salary = url.find('div',class_='salary-snippet-container').text
     
     response = requests.request("GET", url, headers=headers, data=payload)
 
-    print(response.text)
+    jobs = [jobTitle, companyName, jobDescription, salary]
+    
+    print(jobs)
 
     
 #save data in JSON file
