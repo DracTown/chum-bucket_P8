@@ -3,65 +3,6 @@ from pip._vendor import requests
 from bs4 import BeautifulSoup
 
 
-def displayJobDetails():
-    print("Display job details")
-
-<<<<<<< HEAD
-
-def getJobList(role, location):
-=======
-def getJobList(role, location):
->>>>>>> 6742870fcfcec386afb4f74eea073f64aa3034ee
-    # Complete the missing part of this function here
-    jobResults = []
-
-
-    url = "https://www.indeed.com/jobs?q=" + role + "&l=" + location
-
-    payload = {}
-    headers = {
-        'Cookie': 'CTK=1fvqtabopq05p800; INDEED_CSRF_TOKEN=zObWlBjnc0oLVAS3aidx8lvSAZOgVukr; JSESSIONID=627D0DD3248349B13DE876D0883448E6; PREF="TM=1649096863522:L=Charlotte"; RQ="q=Software+Developer&l=+Charlotte&ts=1649703016594:q=+Software+Developer+&l=+Charlotte&ts=1649699917805&pts=1649129121573"; UD="LA=1649703016:LV=1649127002:CV=1649698419:TS=1649096863:SG=8138e1e8a2add6bf3bc2dced46849fdb"; indeed_rcc="PREF:CTK:UD:RQ"; jaSerpCount=2'
-    }
-    response = requests.request("GET", url, headers=headers, data=payload)
-    soup = BeautifulSoup(response.text, 'html.parser')
-<<<<<<< HEAD
-=======
-    jobTitle = soup.find_all('h2', attrs={'class': 'jobTitle'})
-    companyName = soup.find_all('span', attrs={'class': 'companyName'})
-    jobDescription = soup.find_all('div', attrs={'class': 'job-snippet'})
-    salary = soup.find_all('div', attrs={'class': 'salary-snippet-container'})
-   
-    for title in jobTitle:
-        searchResultsjobTitle.append(title.text)
-    for name in companyName:
-        searchResultscompanyName.append(name.text)
-        print(name.text)
-    for des in jobDescription:
-        searchResultsjobDescription.append(des.text)
-        print(des.text)
-    for sal in salary:
-        if salary:
-            print(sal.text)
-            searchResultssalary.append(sal.text)
-        else:
-            print('No salary listed')
->>>>>>> 6742870fcfcec386afb4f74eea073f64aa3034ee
-
-    for job in soup.find_all('div', attrs={'class': 'slider_container css-11g4k3a eu4oa1w0'}):
-        jobTitle = job.find_next('h2', class_='jobTitle')
-        companyName = job.find_next('span', class_='companyName')
-        jobDescription = job.find_next('div', class_='job-snippet')
-        salary = job.find_next('div', class_='salary-snippet-container')
-        if salary:
-            salary=salary.text
-        else:
-         salary="None"
-
-        jobs = [jobTitle.text, companyName.text, jobDescription.text, salary]
-        jobResults.append(jobs)
-
-    for i in jobResults:
-     print(i)
 
 
     
