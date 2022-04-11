@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 def displayJobDetails():
     print("Display job details")
 
-
+jobResults = []
 def getJobList(role, location):
     # Complete the missing part of this function here
-    jobResults = []
+ 
 
 
     url = "https://www.indeed.com/jobs?q=" + role + "&l=" + location
@@ -33,8 +33,7 @@ def getJobList(role, location):
         jobs = [jobTitle.text, companyName.text, jobDescription.text, salary]
         jobResults.append(jobs)
 
-    for i in jobResults:
-     print(i)
+   
     
     
 #main function
@@ -45,6 +44,8 @@ def main():
     # Complete the missing part of this function here
     print("Enter the Location to serch")
     location=input()
-    getJobList(role,location)    
+    getJobList(role,location)
+    for i in jobResults:
+     print(i)    
 if __name__ == '__main__':
     main()
