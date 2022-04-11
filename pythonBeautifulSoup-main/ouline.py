@@ -18,15 +18,13 @@ def getJobList(role,location):
   'Cookie': 'CTK=1g0crhisekugl800; INDEED_CSRF_TOKEN=H1dD6yjOnmqLbnGqzb4t1a4sPlqW24Bu; JSESSIONID=65BE99942E4DF1EFC32EE45594493F11; PREF="TM=1649698982807:L=Charlotte"; RQ="q=+Software+Developer+&l=+Charlotte&ts=1649698982831"; UD="LA=1649698982:CV=1649698982:TS=1649698982:SG=56e8f01539738038954d8124c56dd2be"; ctkgen=1; indeed_rcc=""; jaSerpCount=1'
 }
     
-    jobTitle = url.find('h2',class_='jobTitle').text
-    companyName= url.find('span',class_='companyName').text
-    jobDescription = url.find('div',class_='job-snippet').text
-    salary = url.find('div',class_='salary-snippet-container').text
-    
-    response = requests.request("GET", url, headers=headers, data=payload)
-
+   response = requests.request("GET", url, headers=headers, data=payload)
+    soup=BeautifulSoup(response.text,'html.parser')
+    jobTitle = soup.find('h2', class_='jobTitle').text
+    companyName = soup.find('span', class_='companyName').text
+    jobDescription = soup.find('div', class_='job-snippet').text
+    salary = soup.find('div', class_='salary-snippet-container').text
     jobs = [jobTitle, companyName, jobDescription, salary]
-    
     print(jobs)
 
     
