@@ -1,8 +1,6 @@
 #import beautifulsoup and request here
-from bs4 import BeautifulSoup
-import bs4
-import json
-from pip._vendor import requests
+import requests
+import beautifulsoup4
 
 
 def displayJobDetails():
@@ -10,7 +8,7 @@ def displayJobDetails():
 
 #function to get job list from url 'https://www.indeed.com/jobs?q={role}&l={location}'
 def getJobList(role,location):
-   
+    url = 'https://www.indeed.com/jobs?q={role}&l={location}'
     # Complete the missing part of this function here 
 
     url = "https://www.indeed.com/jobs?q="+ role + "&l=" + location
@@ -44,8 +42,7 @@ def main():
     print("Enter role you want to search")
     role = input()
     # Complete the missing part of this function here
-    print("Enter the Location to search")
-    location = input()
-    
+    print("Enter the Location to serch")
+    location=input()    
 if __name__ == '__main__':
     main()
