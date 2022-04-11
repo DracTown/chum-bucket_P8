@@ -1,6 +1,6 @@
 #import beautifulsoup and request here
-import requests
-import beautifulsoup4
+from pip._vendor import requests
+from bs4 import BeautifulSoup
 
 
 def displayJobDetails():
@@ -17,7 +17,6 @@ def getJobList(role,location):
     headers = {
   'Cookie': 'CTK=1g0crhisekugl800; INDEED_CSRF_TOKEN=H1dD6yjOnmqLbnGqzb4t1a4sPlqW24Bu; JSESSIONID=65BE99942E4DF1EFC32EE45594493F11; PREF="TM=1649698982807:L=Charlotte"; RQ="q=+Software+Developer+&l=+Charlotte&ts=1649698982831"; UD="LA=1649698982:CV=1649698982:TS=1649698982:SG=56e8f01539738038954d8124c56dd2be"; ctkgen=1; indeed_rcc=""; jaSerpCount=1'
 }
-    jobList = BeautifulSoup.find_all('role', 'location')
     
     jobTitle = url.find('h2',class_='jobTitle').text
     companyName= url.find('span',class_='companyName').text
