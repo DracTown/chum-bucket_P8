@@ -28,6 +28,11 @@ def getJobList(role, location):
             
         jobs = [jobTitle.text, companyName.text, jobDescription.text, salary]
         jobResults.append(jobs)
+
+def saveDataInJSON(jobDetails):
+    # Complete the missing part of this function here
+
+    print("Saving data to JSON")        
     
     
 #main function
