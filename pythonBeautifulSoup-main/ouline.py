@@ -31,7 +31,10 @@ def getJobList(role, location):
 
 def saveDataInJSON(jobDetails):
     # Complete the missing part of this function here
-
+    jsonStr = json.dumps(jobDetails)
+    parse = json.loads(jsonStr)
+    with open('jobDetails.json', 'w', econding = 'utf-8') as jdjs:
+        jdjs.write(json.dumps(parse, indent = 4, sort_keys = True)) 
     print("Saving data to JSON")        
     
     
@@ -41,10 +44,9 @@ def main():
     print("Enter role you want to search")
     role = input()
     # Complete the missing part of this function here
-    print("Enter the Location to serch")
-    location=input()
+    print("Enter the Location to search")
+    location = input()
     getJobList(role,location)
-    for i in jobResults:
-     print(i)    
+    saveDataInJSON(jobResults)
 if __name__ == '__main__':
     main()
