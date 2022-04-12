@@ -16,17 +16,25 @@ def getJobList(role, location):
     }
     response = requests.request("GET", url, headers=headers, data=payload)
     soup = BeautifulSoup(response.text, 'html.parser')
-    for job in soup.find_all('div', attrs={'class': 'slider_container css-11g4k3a eu4oa1w0'}):
-        jobTitle = job.find('h2', class_='jobTitle')
-        companyName = job.find('span', class_='companyName')
-        jobDescription = job.find('div', class_='job-snippet')
+    for job in soup.find_all('div', class_='job_seen_beacon'):
+        jobTitle = job.find('h2', class_='jobTitle').text
+        companyName = job.find('span', class_='companyName').text
+        jobDescription = job.find('div', class_='job-snippet').text
         salary = job.find('div', class_='salary-snippet-container')
+        
+        jobTitleString = jobTitle
+        substring = 'new'
+        if substring in jobTitleString:
+            jobTitleString = jobTitleString.replace('new', 'New ')
+        else:
+            jobTitleString
+            
         if salary:
             salary = salary.text
         else:
             salary = "None listed"
             
-        jobs = [jobTitle.text, companyName.text, jobDescription.text, salary]
+        jobs = [jobTitleString, companyName, jobDescription, salary]
         jobResults.append(jobs)
 
 def saveDataInJSON(jobDetails):
