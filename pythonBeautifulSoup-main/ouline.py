@@ -33,7 +33,7 @@ def saveDataInJSON(jobDetails):
     # Complete the missing part of this function here
     jsonStr = json.dumps(jobDetails)
     parse = json.loads(jsonStr)
-    with open('jobDetails.json', 'w', econding = 'utf-8') as jdjs:
+    with open('jobDetails.json', 'w', encoding = 'utf-8') as jdjs:
         jdjs.write(json.dumps(parse, indent = 4, sort_keys = True)) 
     print("Saving data to JSON")        
     
