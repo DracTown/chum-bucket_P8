@@ -1,92 +1,122 @@
 [
     [
-        "New Junior Software Engineer - Back End",
-        "OneMain Financial",
-        "\nThe candidate should be able to adapt to a challenging fast paced environment working with batch and real-time systems involving customer credit card activities\u2026\n",
-        "None listed"
+        {
+            "Company Name": "MedShift",
+            "JOB Description": "\n2+ years of professional experience in software development, OSS experience, or equivalent side projects.\nProven experience in building Single Page Applications\u2026\n",
+            "JOB Salary": "$72,500 - $140,000 a year",
+            "JOB Title": "Full Stack Software Engineer"
+        }
     ],
     [
-        "New Senior Software Engineer",
-        "Growing Company",
-        "\nGenerally, 4+ years as a professional software engineer.\nDevelop software applications using best practices in coordination with a distributed team.\n",
-        "$130,000 - $160,000 a year"
+        {
+            "Company Name": "Payzer",
+            "JOB Description": "\nKnowledge of payments and finance software is a plus.\nDesire to communicate and assist customers with software questions and technical troubleshooting.\n",
+            "JOB Salary": "$50,000 - $75,000 a year",
+            "JOB Title": "Software Product Specialist - Customer Support"
+        }
     ],
     [
-        "New Software Developer",
-        "Liberty Healthcare Management",
-        "\nSkill in designing system processes and software applications, & configuring systems and software.\nAssesses user\u2019s information requirements by interviewing\u2026\n",
-        "$62,500 a year"
+        {
+            "Company Name": "Ally Financial",
+            "JOB Description": "\nAbility to manage multiple complex software development projects.\nKnowledge of all phases of software development.\n7+ years of experience preferred.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "Dir - Software Eng"
+        }
     ],
     [
-        "New Associate Programmer",
-        "Sheetz",
-        "\nThe Associate Programmer assists in the development of technology solutions as assigned by Applications and Development management.\n",
-        "None listed"
+        {
+            "Company Name": "MUFG",
+            "JOB Description": "\nTechnology Software Engineer needed to assist in development efforts for large team working on project and maintenance activities.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "Software Engineering, Analyst"
+        }
     ],
     [
-        "New J2EE Software Associate",
-        "TCS Tech",
-        "\nTata Consultancy Services is seeking a Senior Java Developer.\nThis position will interface with key stakeholders to apply technical proficiency across different\u2026\n",
-        "None listed"
+        {
+            "Company Name": "Indeed",
+            "JOB Description": "\nDesign and implement efficient algorithms for ranking search results, increasing recall, filtering spam and personalization.\n",
+            "JOB Salary": "$132,000 - $192,000 a year",
+            "JOB Title": "Software Engineer II - Business Technology"
+        }
     ],
     [
-        "New Clinical Application Analyst",
-        "Dean's Professional Services",
-        "\nEvaluates software and vendor credentials for major application replacement initiatives.\nLocation: Charlotte, NC (MUST BE LOCAL TO NC/SC).\n",
-        "From $75.76 an hour"
+        {
+            "Company Name": "Centene Corporation",
+            "JOB Description": "\nPaid Time Off including paid holidays.\nProvide operational and technical support to ensure the ongoing stability to the server environments.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "New System Engineer (Data Center) - remote"
+        }
     ],
     [
-        "New Software Engineer",
-        "NetApp",
-        "\nResponsible for delivering an enterprise class NetApp software product.\nDevelops, modifies, and executes automated software test plans.\n",
-        "None listed"
+        {
+            "Company Name": "Revature",
+            "JOB Description": "\nAs a Revature Entry Level Software Engineer you will receive on-the-job-training to become an experienced software engineer.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "Entry Level Software Engineer"
+        }
     ],
     [
-        "New Web Designer",
-        "Pionear Recruiting",
-        "\nDesign and implement scalable UI Architectures that permit independent releases and rollbacks of desktop components.\nDefine governance structures for UI teams.\n",
-        "$68 - $70 an hour"
+        {
+            "Company Name": "Centene Corporation",
+            "JOB Description": "\nThey proactively work to design, build, test and maintain scalable and highly responsive custom microservice API technology solutions to meet the business needs\u2026\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "New Sr. Software Engineer -- Remote Available"
+        }
     ],
     [
-        "New Desktop Support",
-        "Cognizant",
-        "\nProficient on vmware technology, build vm machines and install software.\nHands on experience with installation and uninstallation of software on windows 10 and\u2026\n",
-        "$65,000 - $70,000 a year"
+        {
+            "Company Name": "CORVID Technologies",
+            "JOB Description": "\nFamiliar with version control, continuous integration, and software testing tools.\nDirect experience in implementing software systems for parallel explicit or\u2026\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "Jr. Software Developer"
+        }
     ],
     [
-        "New Associate Software Engineer",
-        "ZM Financial Systems",
-        "\nComplete documentation and procedures for installation and maintenance of software.\nOur data, analytical solutions and insights help decision-makers identify\u2026\n",
-        "None listed"
+        {
+            "Company Name": "Revature",
+            "JOB Description": "\nCollege degree (Associates or Bachelors).\nMust be authorized to work in the US.\nStrong desire to learn to code \u2013 No prior professional experience required.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "Junior Software Developer"
+        }
     ],
     [
-        "New Mainframe MQ Support",
-        "Data Bridge Consultants",
-        "\nWe are looking for Mainframe MQ Support Analyst.\nThe Mainframe MQ Support Analyst provides enterprise-wide technical support for IBM MQ on one of the largest\u2026\n",
-        "$80,000 - $95,000 a year"
+        {
+            "Company Name": "Revature",
+            "JOB Description": "\nCollege degree (Associates or Bachelors).\nSome experience with OOP/hands-on experience.\nWillingness to commit to a role for a minimum of 2 years.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "New Software Developer"
+        }
     ],
     [
-        "New Mainframe CA7",
-        "Data Bridge Consultants",
-        "\nWe are looking Mainframe Job Scheduling Support Engr.\nProvides Job Scheduling product support and administration with CA7/CA11 tool set.\n",
-        "$170,000 - $180,000 a year"
+        {
+            "Company Name": "SPECTRUM",
+            "JOB Description": "\nResponsible for management of a team of software professionals who deliver and back office software solutions.\nOrganizes and delegates work as needed.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "New Mgr, Software Development \u2013 Process Improvements"
+        }
     ],
     [
-        "New Mainframe Services",
-        "Data Bridge Consultants",
-        "\nExperience with IBM z/OS system and subsystem software and components with experience to support, develop and enhance tools and methodologies for managing large\u2026\n",
-        "$120,000 - $130,000 a year"
+        {
+            "Company Name": "JPMorgan Chase Bank, N.A.",
+            "JOB Description": "\nBS/BA degree or equivalent experience.\nExpertise in application, data, and infrastructure architecture disciplines.\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "New Software Engineering"
+        }
     ],
     [
-        "New Software Engineer",
-        "Pratt Miller",
-        "\nRecent college graduates and junior software engineers encouraged to apply.\nWillingness to learn and stay current with software development technologies.\n",
-        "None listed"
+        {
+            "Company Name": "Vaco",
+            "JOB Description": "\nProvide technical guidance in software design and development activities.\nAssist in maintenance and upgrades of existing software applications.\n",
+            "JOB Salary": "$165,000 a year",
+            "JOB Title": "New REMOTE Software Engineer (React)- 165k"
+        }
     ],
     [
-        "New Cobol Mainframe",
-        "Data Bridge Consultants",
-        "\nExperience with IBM z/OS system and subsystem software and components with experience to support, develop and enhance tools and methodologies for managing large\u2026\n",
-        "$130,000 - $140,000 a year"
+        {
+            "Company Name": "UNC Charlotte",
+            "JOB Description": "\nThis position is responsible to support the full software development life cycle (requirements, design, implementation, verification, maintenance) of the\u2026\n",
+            "JOB Salary": "None listed",
+            "JOB Title": "Head of Software Development"
+        }
     ]
 ]
