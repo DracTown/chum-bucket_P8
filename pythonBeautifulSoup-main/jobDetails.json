@@ -1,122 +1,92 @@
 [
-    [
-        {
-            "Company Name": "MedShift",
-            "JOB Description": "\n2+ years of professional experience in software development, OSS experience, or equivalent side projects.\nProven experience in building Single Page Applications\u2026\n",
-            "JOB Salary": "$72,500 - $140,000 a year",
-            "JOB Title": "Full Stack Software Engineer"
-        }
-    ],
-    [
-        {
-            "Company Name": "Payzer",
-            "JOB Description": "\nKnowledge of payments and finance software is a plus.\nDesire to communicate and assist customers with software questions and technical troubleshooting.\n",
-            "JOB Salary": "$50,000 - $75,000 a year",
-            "JOB Title": "Software Product Specialist - Customer Support"
-        }
-    ],
-    [
-        {
-            "Company Name": "Ally Financial",
-            "JOB Description": "\nAbility to manage multiple complex software development projects.\nKnowledge of all phases of software development.\n7+ years of experience preferred.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "Dir - Software Eng"
-        }
-    ],
-    [
-        {
-            "Company Name": "MUFG",
-            "JOB Description": "\nTechnology Software Engineer needed to assist in development efforts for large team working on project and maintenance activities.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "Software Engineering, Analyst"
-        }
-    ],
-    [
-        {
-            "Company Name": "Indeed",
-            "JOB Description": "\nDesign and implement efficient algorithms for ranking search results, increasing recall, filtering spam and personalization.\n",
-            "JOB Salary": "$132,000 - $192,000 a year",
-            "JOB Title": "Software Engineer II - Business Technology"
-        }
-    ],
-    [
-        {
-            "Company Name": "Centene Corporation",
-            "JOB Description": "\nPaid Time Off including paid holidays.\nProvide operational and technical support to ensure the ongoing stability to the server environments.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "New System Engineer (Data Center) - remote"
-        }
-    ],
-    [
-        {
-            "Company Name": "Revature",
-            "JOB Description": "\nAs a Revature Entry Level Software Engineer you will receive on-the-job-training to become an experienced software engineer.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "Entry Level Software Engineer"
-        }
-    ],
-    [
-        {
-            "Company Name": "Centene Corporation",
-            "JOB Description": "\nThey proactively work to design, build, test and maintain scalable and highly responsive custom microservice API technology solutions to meet the business needs\u2026\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "New Sr. Software Engineer -- Remote Available"
-        }
-    ],
-    [
-        {
-            "Company Name": "CORVID Technologies",
-            "JOB Description": "\nFamiliar with version control, continuous integration, and software testing tools.\nDirect experience in implementing software systems for parallel explicit or\u2026\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "Jr. Software Developer"
-        }
-    ],
-    [
-        {
-            "Company Name": "Revature",
-            "JOB Description": "\nCollege degree (Associates or Bachelors).\nMust be authorized to work in the US.\nStrong desire to learn to code \u2013 No prior professional experience required.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "Junior Software Developer"
-        }
-    ],
-    [
-        {
-            "Company Name": "Revature",
-            "JOB Description": "\nCollege degree (Associates or Bachelors).\nSome experience with OOP/hands-on experience.\nWillingness to commit to a role for a minimum of 2 years.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "New Software Developer"
-        }
-    ],
-    [
-        {
-            "Company Name": "SPECTRUM",
-            "JOB Description": "\nResponsible for management of a team of software professionals who deliver and back office software solutions.\nOrganizes and delegates work as needed.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "New Mgr, Software Development \u2013 Process Improvements"
-        }
-    ],
-    [
-        {
-            "Company Name": "JPMorgan Chase Bank, N.A.",
-            "JOB Description": "\nBS/BA degree or equivalent experience.\nExpertise in application, data, and infrastructure architecture disciplines.\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "New Software Engineering"
-        }
-    ],
-    [
-        {
-            "Company Name": "Vaco",
-            "JOB Description": "\nProvide technical guidance in software design and development activities.\nAssist in maintenance and upgrades of existing software applications.\n",
-            "JOB Salary": "$165,000 a year",
-            "JOB Title": "New REMOTE Software Engineer (React)- 165k"
-        }
-    ],
-    [
-        {
-            "Company Name": "UNC Charlotte",
-            "JOB Description": "\nThis position is responsible to support the full software development life cycle (requirements, design, implementation, verification, maintenance) of the\u2026\n",
-            "JOB Salary": "None listed",
-            "JOB Title": "Head of Software Development"
-        }
-    ]
+    {
+        "Company Name": "MedShift",
+        "JOB Description": "\n2+ years of professional experience in software development, OSS experience, or equivalent side projects.\nProven experience in building Single Page Applications\u2026\n",
+        "JOB Salary": "$72,500 - $140,000 a year",
+        "JOB Title": "Full Stack Software Engineer"
+    },
+    {
+        "Company Name": "Ally Financial",
+        "JOB Description": "\nAbility to manage multiple complex software development projects.\nKnowledge of all phases of software development.\n7+ years of experience preferred.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "Dir - Software Eng"
+    },
+    {
+        "Company Name": "MUFG",
+        "JOB Description": "\nTechnology Software Engineer needed to assist in development efforts for large team working on project and maintenance activities.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "Software Engineering, Analyst"
+    },
+    {
+        "Company Name": "JPMorgan Chase Bank, N.A.",
+        "JOB Description": "\nBS/BA degree or equivalent experience.\nExpertise in application, data, and infrastructure architecture disciplines.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "New Software Engineering"
+    },
+    {
+        "Company Name": "Indeed",
+        "JOB Description": "\nDesign and implement efficient algorithms for ranking search results, increasing recall, filtering spam and personalization.\n",
+        "JOB Salary": "$132,000 - $192,000 a year",
+        "JOB Title": "Software Engineer II - Business Technology"
+    },
+    {
+        "Company Name": "SPECTRUM",
+        "JOB Description": "\nResponsible for management of a team of software professionals who deliver and back office software solutions.\nOrganizes and delegates work as needed.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "New Mgr, Software Development \u2013 Process Improvements"
+    },
+    {
+        "Company Name": "Payzer",
+        "JOB Description": "\nKnowledge of payments and finance software is a plus.\nDesire to communicate and assist customers with software questions and technical troubleshooting.\n",
+        "JOB Salary": "$50,000 - $75,000 a year",
+        "JOB Title": "Software Product Specialist - Customer Support"
+    },
+    {
+        "Company Name": "The Travelers Companies, Inc.",
+        "JOB Description": "\nResearch and apply knowledge of current industry trends and techniques to formulate solutions for software engineering problems.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "New Software Engineer (Java)"
+    },
+    {
+        "Company Name": "Centene Corporation",
+        "JOB Description": "\nThey proactively work to design, build, test and maintain scalable and highly responsive custom microservice API technology solutions to meet the business needs\u2026\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "New Sr. Software Engineer -- Remote Available"
+    },
+    {
+        "Company Name": "Ally Financial",
+        "JOB Description": "\nAbility to manage multiple complex software development projects.\nKnowledge of all phases of software development.\nInteracts directly with business clients.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "Intelligent Automation Engineer \u2013 Software Dev"
+    },
+    {
+        "Company Name": "Revature",
+        "JOB Description": "\nAs a Revature Entry Level Software Engineer you will receive on-the-job-training to become an experienced software engineer.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "Entry Level Software Engineer"
+    },
+    {
+        "Company Name": "UNC Charlotte",
+        "JOB Description": "\nThis position is responsible to support the full software development life cycle (requirements, design, implementation, verification, maintenance) of the\u2026\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "Head of Software Development"
+    },
+    {
+        "Company Name": "CORVID Technologies",
+        "JOB Description": "\nFamiliar with version control, continuous integration, and software testing tools.\nDirect experience in implementing software systems for parallel explicit or\u2026\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "Jr. Software Developer"
+    },
+    {
+        "Company Name": "Microsoft",
+        "JOB Description": "\nWe build, buy, and integrate the best available components and datasets to deliver a flexible, scalable platform that amplifies both automated and human\u2026\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "New Software Engineer"
+    },
+    {
+        "Company Name": "Revature",
+        "JOB Description": "\nCollege degree (Associates or Bachelors).\nMust be authorized to work in the US.\nStrong desire to learn to code \u2013 No prior professional experience required.\n",
+        "JOB Salary": "None listed",
+        "JOB Title": "Junior Software Developer"
+    }
 ]
