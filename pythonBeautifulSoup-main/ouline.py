@@ -34,7 +34,7 @@ def getJobList(role, location):
         else:
             salary = "None listed"
             
-         jobs = [{"JOB Title":jobTitleString, "Company Name":companyName, "JOB Description":jobDescription, "JOB Salary":salary}]
+          jobs = {"JOB Title":jobTitleString, "Company Name":companyName, "JOB Description":jobDescription, "JOB Salary":salary}
         jobResults.append(jobs)
 
 def saveDataInJSON(jobDetails):
