@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beautiful Soup</title>
+</head>
+  <body>
+<div>
+<ul>
+            {% for temp in temp %}
+    <li><b>Company: {{temp['Company Name']}}</b></li>
+
+    <ul><p><strong>Job Title: </strong>{{temp['JOB Title']}}</p>
+        <p><strong>Description:</strong> {{temp['JOB Description']}}</p>
+        <p><strong>Salary: </strong>{{temp['JOB Salary']}}</p></ul>
+
+
+            {% endfor %}
+        </ul>
+
+</div>
+
+  </body>
+</html>
