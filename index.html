@@ -1,0 +1,19 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Job Details</title>
+
+
+<body>
+    <h1><center>Job List</center></h1>
+    <div>
+        <ul>{% for temp in temp %}
+            <li><b>{{temp['Company Name']}}</b></li>
+            <p><i>{{temp['JOB Description']}}</i></p>
+            <p>{{temp['JOB Salary']}}</p>
+            <p>{{temp['JOB Title']}}</p>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
